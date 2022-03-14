@@ -23,14 +23,14 @@ cd tools && python build_vocab $number < $textfile > $vocab_file
 + Start training
 
 ```
-python train.py -config run_config/train-example.json -batch_size $batch_size -kl_annealing_steps $kl_steps -latent_dim $latent_dim
+python train.py -config run_config/train-zhen.json -batch_size $batch_size -kl_annealing_steps $kl_steps -latent_dim $latent_dim
 ```
 
 
 + Start decoding
 
 ```
-python translate.py -config run_config/decode-example.json
+python translate.py -config run_config/decode-zhen.json
 ```
 
 ## Citation
