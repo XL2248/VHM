@@ -1,0 +1,23 @@
+{
+    "input": [
+        "/path/to/MT_src/test_zh.sum.wordseg.norm.bpe",
+        "/path/to/MT_tgt/test_en.sum.norm.tok.lowercase.bpe",
+        "/path/to/MS_src/test_zh.text.wordseg.norm.bpe",
+        "/path/to/MS_tgt/test_zh.sum.wordseg.norm.bpe",
+        "/path/to/CLS_src/test_zh.text.wordseg.norm.bpe",
+        "/path/to/CLS_tgt/reference.norm"
+    ],
+    "vocab": [
+        "/path/to/vocab/vocab.shared.zhen.txt.sum.uniq",
+        "/path/to/vocab/vocab.shared.zhen.txt.sum.uniq"
+    ],
+    "model_path": "/path/to/output/checkpoint-step-",
+    "min_length": 2,
+    "batch_size": 2000,
+    "tf": false,
+    "output": [
+        "/path/to/output/zh2en/output_zhen_separate3task_latent_mt",
+        "/path/to/output/zh2en/output_zhen_separate3task_latent_mls",
+        "/path/to/output/zh2en/output_zhen_separate3task_latent_cls"
+    ]
+}

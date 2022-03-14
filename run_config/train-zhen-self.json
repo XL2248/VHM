@@ -1,0 +1,39 @@
+{
+    "train": [
+        "/path/to/MT_src/train_zh.sum.wordseg.norm.bpe",
+        "/path/to/MT_tgt/train_en.sum.norm.tok.lowercase.bpe"
+        "/path/to/MS_src/train_zh.text.wordseg.norm.bpe",
+        "/path/to/MS_tgt/train_zh.sum.wordseg.norm.bpe",
+        "/path/to/CLS_src/train_zh.text.wordseg.norm.bpe",
+        "/path/to/CLS_tgt/train_en.sum.norm.tok.lowercase.bpe"
+    ],
+    "valid": [
+        "/path/to/MT_src/valid_zh.sum.wordseg.norm.bpe",
+        "/path/to/MT_tgt/valid_en.sum.norm.tok.lowercase.bpe"
+        "/path/to/MS_src/valid_zh.text.wordseg.norm.bpe",
+        "/path/to/MS_tgt/valid_zh.sum.wordseg.norm.bpe",
+        "/path/to/CLS_src/valid_zh.text.wordseg.norm.bpe",
+        "/path/to/CLS_tgt/valid_en.sum.norm.tok.lowercase.bpe"
+    ],
+    "test": [
+        "/path/to/MT_src/test_zh.sum.wordseg.norm.bpe",
+        "/path/to/MT_tgt/test_en.sum.norm.tok.lowercase.bpe",
+        "/path/to/MS_src/test_zh.text.wordseg.norm.bpe",
+        "/path/to/MS_tgt/test_zh.sum.wordseg.norm.bpe",
+        "/path/to/CLS_src/test_zh.text.wordseg.norm.bpe",
+        "/path/to/CLS_tgt/reference.norm"
+    ],
+    "vocab": [
+        "/path/to/vocab/vocab.shared.zhen.txt.sum.uniq",
+        "/path/to/vocab/vocab.shared.zhen.txt.sum.uniq"
+    ],
+    "layers": 6,
+    "heads": 8,
+    "hidden_size": 512,
+    "ff_size": 2048,
+    "model_path": "/path/to/output/zhen",
+    "report_every": 100,
+    "save_every": 5000,
+    "tf": true,
+    "max_to_keep": 20
+}
