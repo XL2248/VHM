@@ -17,20 +17,21 @@ Training with the following scripts:
 + Build vocab
 
 ```
-cd tools && python build_vocab $number < $textfile > $vocab_file
+cd tools 
+python -u build_vocab $number < $textfile > $vocab_file
 ```
 
 + Start training
 
 ```
-python train.py -config run_config/train-zhen.json -batch_size $batch_size -kl_annealing_steps $kl_steps -latent_dim $latent_dim
+python -u train.py -config run_config/train-zhen.json -batch_size $batch_size -kl_annealing_steps $kl_steps -latent_dim $latent_dim
 ```
 
 
 + Start decoding
 
 ```
-python translate.py -config run_config/decode-zhen.json
+python -u translate.py -config run_config/decode-zhen.json
 ```
 
 ## Citation
