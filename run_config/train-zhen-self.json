@@ -1,15 +1,15 @@
 {
     "train": [
-        "/path/to/MT_src/train_zh.sum.wordseg.norm.bpe",
-        "/path/to/MT_tgt/train_en.sum.norm.tok.lowercase.bpe"
-        "/path/to/MS_src/train_zh.text.wordseg.norm.bpe",
-        "/path/to/MS_tgt/train_zh.sum.wordseg.norm.bpe",
-        "/path/to/CLS_src/train_zh.text.wordseg.norm.bpe",
-        "/path/to/CLS_tgt/train_en.sum.norm.tok.lowercase.bpe"
+        "/path/to/MT_src/train_zh.sum.wordseg.norm.bpe", # LDC
+        "/path/to/MT_tgt/train_en.sum.norm.tok.lowercase.bpe", # LDC
+        "/path/to/MS_src/train_zh.text.wordseg.norm.bpe", # LCSTS for zhen; ENSUM for enzh
+        "/path/to/MS_tgt/train_zh.sum.wordseg.norm.bpe", # LCSTS for zhen; ENSUM for enzh
+        "/path/to/CLS_src/train_zh.text.wordseg.norm.bpe", # Zh2EnSum for zhen; En2ZhSum for enzh
+        "/path/to/CLS_tgt/train_en.sum.norm.tok.lowercase.bpe" # Zh2EnSum for zhen; En2ZhSum for enzh
     ],
     "valid": [
         "/path/to/MT_src/valid_zh.sum.wordseg.norm.bpe",
-        "/path/to/MT_tgt/valid_en.sum.norm.tok.lowercase.bpe"
+        "/path/to/MT_tgt/valid_en.sum.norm.tok.lowercase.bpe",
         "/path/to/MS_src/valid_zh.text.wordseg.norm.bpe",
         "/path/to/MS_tgt/valid_zh.sum.wordseg.norm.bpe",
         "/path/to/CLS_src/valid_zh.text.wordseg.norm.bpe",
