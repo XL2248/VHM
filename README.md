@@ -1,5 +1,5 @@
 # VHM
-Code for the ACL2022 main conference paper [A Variational Hierarchical Model for Neural Cross-Lingual Summarization](https://arxiv.org/abs/2203.03820).
+Code for the ACL2022 main conference paper [A Variational Hierarchical Model for Neural Cross-Lingual Summarization](https://aclanthology.org/2022.acl-long.148/).
 
 ## Introduction
 In this work, we mainly bulid a variational hierarchical model via conditional variational auto-encoders that introduce a global variable
@@ -39,11 +39,23 @@ python -u translate.py -config run_config/decode-zhen.json
 If you find this project helps, please cite our paper :)
 
 ```
-@article{liang2022variational,
-  title={A Variational Hierarchical Model for Neural Cross-Lingual Summarization},
-  author={Liang, Yunlong and Meng, Fandong and Zhou, Chulun and Xu, Jinan and Chen, Yufeng and Su, Jinsong and Zhou, Jie},
-  journal={arXiv preprint arXiv:2203.03820},
-  year={2022}
-}
+@inproceedings{liang-etal-2022-variational,
+    title = "A Variational Hierarchical Model for Neural Cross-Lingual Summarization",
+    author = "Liang, Yunlong  and
+      Meng, Fandong  and
+      Zhou, Chulun  and
+      Xu, Jinan  and
+      Chen, Yufeng  and
+      Su, Jinsong  and
+      Zhou, Jie",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.148",
+    doi = "10.18653/v1/2022.acl-long.148",
+    pages = "2088--2099",
+    }
 ```
 Please feel free to open an issue or email me (yunlonliang@gmail.com) for questions and suggestions.
